@@ -1,0 +1,25 @@
+
+
+.title-container {
+    background-color: #5dbcd2;
+    .main-title {
+        color: black;
+        text-align: center
+        
+    }
+}
+.main-title {
+    margin: 0px;
+}
+.category-main {
+    background-color: #5dbcd2;
+    min-height: 100%;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 20% auto;
+    height: 100%;
+}
+
+    
