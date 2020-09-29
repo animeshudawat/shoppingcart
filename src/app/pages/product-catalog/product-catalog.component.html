@@ -1,0 +1,10 @@
+<div class="product-catalog">
+    <div class="product" *ngFor="let product of productList">
+        <img src = "{{product.imageURL}}">
+        <div class="prod-details">
+            <div class="name">{{product.name}}</div>
+            <div class="price">Rs. {{product.price}}</div>
+            <div class="rating">{{product.rating}}/5</div>
+        </div>
+    </div>
+</div>
