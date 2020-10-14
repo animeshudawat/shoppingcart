@@ -12,6 +12,6 @@ export class ProductService {
   }
 
   getProducts() {
-     return this.httpService.sendRequest(TYPES.GET, 'http://localhost:8080/api/products');
+     return this.httpService.sendRequest(TYPES.GET, '/api/products');
   }
 }
